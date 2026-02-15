@@ -21,19 +21,16 @@ The `sfdx-project.json` file contains useful configuration information for your 
 # 📚 Salesforce Attendance Management System
 
 A custom-built Attendance Management System developed using Salesforce Platform (Apex, Triggers, Lightning Web Components).
-
 ---
 
 ## 🚀 Project Overview
 
 This system allows teachers to:
-
 - Create Attendance Sessions
 - Automatically generate attendance records for students
 - Mark students as Present / Absent using Lightning Web Component
 - Save attendance records
 - Automatically calculate and update attendance percentage for each student
-
 ---
 
 ## 🏗️ Architecture
@@ -46,7 +43,6 @@ This system allows teachers to:
 ### 🔹 Relationships
 - Attendance__c → Student__c (Lookup)
 - Attendance__c → Attendance_Session__c (Lookup)
-
 ---
 
 ## ⚙️ Automation
@@ -66,7 +62,6 @@ When an Attendance Session is created:
 - Toggle Present / Absent buttons
 - Save attendance
 - Real-time UI feedback
-
 ---
 
 ## 📊 Attendance Percentage Logic
@@ -75,7 +70,6 @@ Attendance % is calculated using:
 (Present Count / Total Classes) * 100
 
 Automatically recalculated whenever attendance is updated.
-
 ---
 
 ## 🛠️ Technologies Used
@@ -87,7 +81,6 @@ Automatically recalculated whenever attendance is updated.
 - Salesforce CLI (sf)
 - VS Code
 - Git & GitHub
-
 ---
 
 ## 📌 Features
@@ -97,7 +90,6 @@ Automatically recalculated whenever attendance is updated.
 - Bulk-safe Apex logic
 - Clean Lightning UI
 - GitHub version control
-
 ---
 
 ## 🎯 Future Enhancements
@@ -107,7 +99,6 @@ Automatically recalculated whenever attendance is updated.
 - Attendance locking after submission
 - Export to CSV
 - Low attendance alert system
-
 ---
 
 ## 👩‍💻 Author
