@@ -112,4 +112,4 @@ Automatically recalculated whenever attendance is updated.
 
 ## 👩‍💻 Author
 
-Developed by: [Sapna]
+Developed by: Sapna
