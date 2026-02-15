@@ -1,3 +1,59 @@
+# 📚 Salesforce Attendance Management System
+
+A custom-built Attendance Management System developed using Salesforce Platform (Apex, Triggers, Lightning Web Components).
+
+---
+
+## 🚀 Project Overview
+
+This system allows teachers to:
+
+- Create Attendance Sessions
+- Automatically generate attendance records for students
+- Mark students as Present / Absent using Lightning Web Component
+- Save attendance records
+- Automatically calculate and update attendance percentage for each student
+
+---
+
+## 🏗️ Architecture
+
+### 🔹 Custom Objects
+- Student__c
+- Attendance__c
+- Attendance_Session__c
+
+### 🔹 Relationships
+- Attendance__c → Student__c (Lookup)
+- Attendance__c → Attendance_Session__c (Lookup)
+
+---
+
+## ⚙️ Automation
+
+### ✅ Apex Trigger
+When an Attendance Session is created:
+- Automatically creates attendance records for all students in that class.
+
+### ✅ Apex Controller
+- Fetches attendance records
+- Updates attendance status
+- Calculates attendance percentage
+- Updates Student.Attendance_Percentage__c
+
+### ✅ Lightning Web Component (LWC)
+- Displays student list
+- Toggle Present / Absent buttons
+- Save attendance
+- Real-time UI feedback
+
+---
+
+## 📊 Attendance Percentage Logic
+
+Attendance % is calculated using:
+
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
