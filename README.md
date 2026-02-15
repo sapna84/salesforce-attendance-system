@@ -52,7 +52,47 @@ When an Attendance Session is created:
 ## 📊 Attendance Percentage Logic
 
 Attendance % is calculated using:
+(Present Count / Total Classes) * 100
 
+Automatically recalculated whenever attendance is updated.
+
+---
+
+## 🛠️ Technologies Used
+
+- Salesforce Apex
+- Apex Triggers
+- SOQL
+- Lightning Web Components (LWC)
+- Salesforce CLI (sf)
+- VS Code
+- Git & GitHub
+
+---
+
+## 📌 Features
+
+- Real-time attendance marking
+- Dynamic percentage calculation
+- Bulk-safe Apex logic
+- Clean Lightning UI
+- GitHub version control
+
+---
+
+## 🎯 Future Enhancements
+
+- Attendance dashboard analytics
+- Teacher-based access restriction
+- Attendance locking after submission
+- Export to CSV
+- Low attendance alert system
+
+---
+
+## 👩‍💻 Author
+
+Developed by: [Sapna]
 
 # Salesforce DX Project: Next Steps
 
