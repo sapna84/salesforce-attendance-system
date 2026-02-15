@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendance_Session__c</fullName>
+    <description>Parent attendance session record</description>
+    <inlineHelpText>Attendance session to which this student attendance record belongs.</inlineHelpText>
+    <label>Attendance Session</label>
+    <referenceTo>Attendance_Session__c</referenceTo>
+    <relationshipLabel>Attendances</relationshipLabel>
+    <relationshipName>Attendances</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

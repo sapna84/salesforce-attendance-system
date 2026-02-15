@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Id__c</fullName>
+    <description>Unique employee identifier for teacher</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the official employee ID assigned to the teacher by the college.</inlineHelpText>
+    <label>Employee Id</label>
+    <length>20</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

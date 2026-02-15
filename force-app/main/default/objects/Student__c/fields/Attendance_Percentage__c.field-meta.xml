@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendance_Percentage__c</fullName>
+    <description>Overall attendance percentage till latest session</description>
+    <inlineHelpText>Auto-calculated attendance percentage. Read-only for students.</inlineHelpText>
+    <label>Attendance Percentage</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>
